@@ -1,0 +1,22 @@
+[
+  {
+    "source_system": "STEP",
+    "entity": "orders",
+    "file_format": "csv",
+    "landing_subpath": "step/orders/",
+    "target_table": "bronze_orders",
+    "header": "true",
+    "delimiter": ",",
+    "primary_key": ["order_id"],
+    "enabled": true
+  },
+  {
+    "source_system": "ORBIT",
+    "entity": "orders",
+    "file_format": "json",
+    "landing_subpath": "orbit/orders/",
+    "target_table": "bronze_orders",
+    "primary_key": ["order_id"],
+    "enabled": true
+  }
+]

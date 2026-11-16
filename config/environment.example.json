@@ -1,0 +1,7 @@
+{
+  "catalog": "enterprise_dev",
+  "schema": "lakehouse",
+  "adls_landing_base_path": "abfss://landing@<storage-account>.dfs.core.windows.net/",
+  "adls_checkpoint_base_path": "abfss://checkpoints@<storage-account>.dfs.core.windows.net/enterprise/",
+  "adls_schema_base_path": "abfss://schemas@<storage-account>.dfs.core.windows.net/enterprise/"
+}
